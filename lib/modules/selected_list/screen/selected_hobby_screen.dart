@@ -210,16 +210,16 @@ class _SelectedHobbyScreenState extends State<SelectedHobbyScreen> {
                               ),
                             ),
                             Positioned(
-                              top: -10,
-                              right: -10,
-                              child: GestureDetector(
-                                onTap: () {
+                              top: -20,
+                              right: -20,
+                              child: IconButton(
+                                onPressed: () {
                                   setState(() {
                                     finalSelectedList.removeAt(index);
                                     isAvail = false;
                                   });
                                 },
-                                child: const Icon(
+                                icon: const Icon(
                                   Icons.cancel_rounded,
                                   color: Colors.red,
                                 ),
