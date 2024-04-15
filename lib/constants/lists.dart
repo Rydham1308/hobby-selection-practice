@@ -1,113 +1,4 @@
 class AllHobbiesList {
-  // static const List<Map<String, dynamic>> allHobbies = [
-  //   {
-  //     'hobby': 'Off-Roading',
-  //     'image': 'url',
-  //     'type': 'Sport/Exercise/Fitness',
-  //   },
-  //   {
-  //     'hobby': 'Scuba Diving',
-  //     'image': 'url',
-  //     'type': 'Sport/Exercise/Fitness',
-  //   },
-  //   {
-  //     'hobby': 'Biking',
-  //     'image': 'url',
-  //     'type': 'Sport/Exercise/Fitness',
-  //   },
-  //   {
-  //     'hobby': 'Hiking and Mountain',
-  //     'image': 'url',
-  //     'type': 'Sport/Exercise/Fitness',
-  //   },
-  //   {
-  //     'hobby': 'Surfing',
-  //     'image': 'url',
-  //     'type': 'Sport/Exercise/Fitness',
-  //   },
-  //   {
-  //     'hobby': 'Trekking',
-  //     'image': 'url',
-  //     'type': 'Travelling/Adventure',
-  //   },
-  //   {
-  //     'hobby': 'Toscany',
-  //     'image': 'url',
-  //     'type': 'Travelling/Adventure',
-  //   },
-  //   {
-  //     'hobby': 'CruisingCruising',
-  //     'image': 'url',
-  //     'type': 'Travelling/Adventure',
-  //   },
-  //   {
-  //     'hobby': 'Trips',
-  //     'image': 'url',
-  //     'type': 'Travelling/Adventure',
-  //   },
-  //   {
-  //     'hobby': 'Vacations',
-  //     'image': 'url',
-  //     'type': 'Travelling/Adventure',
-  //   },
-  //   {
-  //     'hobby': 'Vegan',
-  //     'image': 'url',
-  //     'type': 'Foodies and Cheers',
-  //   },
-  //   {
-  //     'hobby': 'Dining out',
-  //     'image': 'url',
-  //     'type': 'Foodies and Cheers',
-  //   },
-  //   {
-  //     'hobby': 'Restaurants',
-  //     'image': 'url',
-  //     'type': 'Foodies and Cheers',
-  //   },
-  //   {
-  //     'hobby': 'Culinary',
-  //     'image': 'url',
-  //     'type': 'Foodies and Cheers',
-  //   },
-  //   {
-  //     'hobby': 'Cooking',
-  //     'image': 'url',
-  //     'type': 'Foodies and Cheers',
-  //   },
-  //   {
-  //     'hobby': 'Karaoke',
-  //     'image': 'url',
-  //     'type': 'Music/Entertainment ',
-  //   },
-  //   {
-  //     'hobby': 'Musical Instruments',
-  //     'image': 'url',
-  //     'type': 'Music/Entertainment ',
-  //   },
-  //   {
-  //     'hobby': 'Bands/DJs',
-  //     'image': 'url',
-  //     'type': 'Music/Entertainment ',
-  //   },
-  //   {
-  //     'hobby': 'Concerts',
-  //     'image': 'url',
-  //     'type': 'Music/Entertainment ',
-  //   },
-  //   {
-  //     'hobby': 'Festivals',
-  //     'image': 'url',
-  //     'type': 'Music/Entertainment ',
-  //   },
-  // ];
-
-  // static const List<String> hobbies = [
-  //   'Sport/Exercise/Fitness',
-  //   'Music/Entertainment',
-  //   'Foodies and Cheers',
-  //   'Travelling/Adventure',
-  // ];
 
   static const List<Map<String, dynamic>> allHobbies = [
     {
@@ -115,23 +6,23 @@ class AllHobbiesList {
       'hobbyList': [
         {
           'hobby': 'Karaoke',
-          'image': 'url',
+          'image': 'assets/icons/MusicEntertainment/Karaoke.svg',
         },
         {
           'hobby': 'Musical Instruments',
-          'image': 'url',
+          'image': 'assets/icons/MusicEntertainment/Musical Instruments.svg',
         },
         {
           'hobby': 'Bands/DJs',
-          'image': 'url',
+          'image': 'assets/icons/MusicEntertainment/BandsDJs.svg',
         },
         {
           'hobby': 'Concerts',
-          'image': 'url',
+          'image': 'assets/icons/MusicEntertainment/Concerts.svg',
         },
         {
           'hobby': 'Festivals',
-          'image': 'url',
+          'image': 'assets/icons/MusicEntertainment/Festivals.svg',
         },
       ]
     },
@@ -140,23 +31,23 @@ class AllHobbiesList {
       'hobbyList': [
         {
           'hobby': 'Vegan',
-          'image': 'url',
+          'image': 'assets/icons/Foodies and Cheers/Vegan.svg',
         },
         {
           'hobby': 'Dining out',
-          'image': 'url',
+          'image': 'assets/icons/Foodies and Cheers/Dining out.svg',
         },
         {
           'hobby': 'Restaurants',
-          'image': 'url',
+          'image': 'assets/icons/Foodies and Cheers/Restaurants.svg',
         },
         {
           'hobby': 'Culinary',
-          'image': 'url',
+          'image': 'assets/icons/Foodies and Cheers/Culinary.svg',
         },
         {
           'hobby': 'Cooking',
-          'image': 'url',
+          'image': 'assets/icons/Foodies and Cheers/Cooking.svg',
         },
       ]
     },
@@ -165,48 +56,64 @@ class AllHobbiesList {
       'hobbyList': [
         {
           'hobby': 'Off-Roading',
-          'image': 'url',
+          'image': 'assets/icons/SportExerciseFitness/Off-Roading.svg',
         },
         {
           'hobby': 'Scuba Diving',
-          'image': 'url',
+          'image': 'assets/icons/SportExerciseFitness/Scuba Diving.svg',
         },
         {
           'hobby': 'Biking',
-          'image': 'url',
+          'image': 'assets/icons/SportExerciseFitness/Biking.svg',
         },
         {
           'hobby': 'Hiking and Mountain',
-          'image': 'url',
+          'image': 'assets/icons/SportExerciseFitness/Hiking and Mountain.svg',
         },
         {
           'hobby': 'Surfing',
-          'image': 'url',
+          'image': 'assets/icons/SportExerciseFitness/Surfing.svg',
+        },
+        {
+          'hobby': 'Golf',
+          'image': 'assets/icons/SportExerciseFitness/Golf.svg',
+        },
+        {
+          'hobby': 'Soccer',
+          'image': 'assets/icons/SportExerciseFitness/Soccer.svg',
+        },
+        {
+          'hobby': 'Football',
+          'image': 'assets/icons/SportExerciseFitness/Football.svg',
+        },
+        {
+          'hobby': 'Kayaking',
+          'image': 'assets/icons/SportExerciseFitness/Kayaking.svg',
         },
       ]
     },
     {
-      'hobbyName': 'Travelling/AdventureSport/Exercise/Fitness',
+      'hobbyName': 'Travelling/Adventure',
       'hobbyList': [
         {
           'hobby': 'Trekking',
-          'image': 'url',
+          'image': 'assets/icons/TravellingAdventure/Trekking.svg',
         },
         {
           'hobby': 'Toscany',
-          'image': 'url',
+          'image': 'assets/icons/TravellingAdventure/Toscany.svg',
         },
         {
-          'hobby': 'CruisingCruising',
-          'image': 'url',
+          'hobby': 'Cruising',
+          'image': 'assets/icons/TravellingAdventure/CruisingCruising.svg',
         },
         {
           'hobby': 'Trips',
-          'image': 'url',
+          'image': 'assets/icons/TravellingAdventure/Trips.svg',
         },
         {
           'hobby': 'Vacations',
-          'image': 'url',
+          'image': 'assets/icons/TravellingAdventure/Vacations.svg',
         },
       ]
     },
