@@ -1,16 +1,16 @@
 # practical
 
-A new Flutter project.
+A new Flutter project to practice list manipulation & data sharing with navigation in flutter.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This was a test given by our mentors at 7Span.
 
-A few resources to get you started if this is your first Flutter project:
+We have given this task to achive in 8 hours.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## **Task :** 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Figma : https://www.figma.com/file/SIkyEM0lL5zSt1eJPGusNG/Practical-Test-1?type=design&node-id=0-1&mode=design
+Notes :
+- Makes sure you've read the comment properly.
+- Don't forgot to send the start timing in the group.
